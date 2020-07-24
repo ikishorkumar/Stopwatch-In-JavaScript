@@ -1,0 +1,60 @@
+body{
+    background-image: url("https://www.vamosrayos.com/b/2020/01/cool-background-hd-images-download-photos-wallpaper-471x250.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: auto !important;
+    text-align: center !important;
+
+}
+#mainDiv{
+    margin: auto !important;
+    padding: auto !important;
+    text-align: center !important;
+    border-radius: 50% !important;
+    min-width: 400px !important;
+}
+#stopwatch{
+    margin: auto !important;
+    margin-top: 5% !important;
+    width: 80% !important;
+
+    min-width: 70% !important;
+}
+.card{
+    /* margin: auto !important; */
+    text-align: center !important;
+}
+@media (min-width: 768px) { 
+    .card{
+        margin: auto !important;
+        text-align: center !important;
+        width: 500px !important;
+
+    }
+    #stopwatch{
+        margin: auto !important;
+        margin-top: 5% !important;
+        width: 50% !important;
+        max-width: 50% !important;
+
+    }
+ }
+
+.card-footer{
+    margin-top: 12px !important;
+}
+.card-body h5{
+    width: 45px !important;
+
+   display: inline-block !important;
+   font-size: 22px !important;
+   padding: 5px !important;
+   box-shadow: 0 8px 6px -6px black !important;
+}
+#milisec{
+    width: 100px;;
+
+}
+.dot{
+    width: fit-content !important;
+}
